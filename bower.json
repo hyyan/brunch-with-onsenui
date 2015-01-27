@@ -1,0 +1,37 @@
+{
+  "name": "Your porject name",
+  "version": "0.0.0",
+  "authors": [
+    "Hyyan Abo Fakher <Tiribthea4hyyan@gmail.com>"
+  ],
+  "license": "Your project license",
+  "private": "true",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "onsenui": "~1.2.1",
+    "font-awesome": "~4.3.0"
+  },
+  "overrides": {
+    "onsenui": {
+      "styles": [
+        "build/css/onsenui.css"
+      ],
+      "main": [
+        "build/js/onsenui_all.js"
+      ],
+      "dependencies": ""
+    },
+    "font-awesome": {
+      "main": [
+        "css",
+        "fonts"
+      ]
+    }
+  }
+}
